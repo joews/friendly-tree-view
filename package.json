@@ -1,0 +1,36 @@
+{
+  "name": "friendly-tree-view",
+  "version": "0.1.0",
+  "description": "An accessible, progressively-enhanced tree view for the web",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "bundle": "rollup -c",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwhitfieldseed/friendly-tree-view.git"
+  },
+  "keywords": [
+    "tree",
+    "view",
+    "treeview",
+    "accessible",
+    "a11y"
+  ],
+  "author": "Joe Whitfield-Seed <joeseed86@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwhitfieldseed/friendly-tree-view/issues"
+  },
+  "homepage": "https://github.com/jwhitfieldseed/friendly-tree-view#readme",
+  "dependencies": {
+    "rollup": "^0.36.3",
+    "rollup-watch": "^2.5.0",
+    "standard": "^8.5.0"
+  }
+}
