@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Friendly Tree View HTML example</title>
+  <link rel="stylesheet" href="../src/index.css">
+
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      font-family: -apple-system, BlinkMacSystemFont, Helvetica, Verdana, sans-serif;
+      text-decoration: none;
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Friendly Tree View</h1>
+  <p>You don't need JavaScript to use Friendly Tree View. If you build HTML and apply the right CSS classes, it just works!</p>
+
+  <ul class="TreeView" role="tree">
+    <li class="TreeView__node">
+      <a class="TreeView__caption" href="#">A</a>
+    </li>
+    <li class="TreeView__node">
+      <input class="TreeView__input" type="checkbox" id="tree-view-1-1" />
+      <label class="TreeView__caption TreeView__caption--branch" for="tree-view-1-1">B</label>
+      <ul class="TreeView__subtree">
+        <li class="TreeView__node"><a class="TreeView__caption" href="#">1</a></li>
+        <li class="TreeView__node"><a class="TreeView__caption" href="#">2</a></li>
+        <li class="TreeView__node">
+          <input class="TreeView__input" type="checkbox" id="tree-view-1-2" />
+          <label class="TreeView__caption TreeView__caption--branch" for="tree-view-1-2">3</label>
+          <ul class="TreeView__subtree">
+            <li class="TreeView__node"><a class="TreeView__caption" href="#">i</a></li>
+            <li class="TreeView__node"><a class="TreeView__caption" href="#">ii</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li class="TreeView__node"><a class="TreeView__caption" href="#">C</a></li>
+  </ul> 
+
+  <!-- links -->
+  <a href="https://github.com/jwhitfieldseed/friendly-tree-view"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+</body>
+
+</html>
