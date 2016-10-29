@@ -3,7 +3,6 @@
 // TODO
 // * base classname option
 // * BEM util
-// * rename subtree -> branch
 // * datum href property
 // * onClick, onOpen, onClose events
 // * more keyboard shortcuts
@@ -68,8 +67,7 @@ const TreeView = {
     return el
   },
 
-  // TODO subtree -> branch
-  _renderList (data, className = 'TreeView__subtree') {
+  _renderList (data, className = 'TreeView__branch') {
     const list = node('ul', className)
     data.forEach(d => {
       list.appendChild(this._renderChild(d))

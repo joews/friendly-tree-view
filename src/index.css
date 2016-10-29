@@ -14,7 +14,7 @@
 	box-sizing: border-box;
 }
 
-.TreeView__subtree {
+.TreeView__branch {
   display: none;
   margin-left: 0;
   
@@ -73,6 +73,6 @@
   transform: translate(-20px, 2px) rotateZ(90deg) rotateY(180deg);
 }
 
-.TreeView__input:checked ~ .TreeView__subtree {
+.TreeView__input:checked ~ .TreeView__branch {
   display: block;
 }
